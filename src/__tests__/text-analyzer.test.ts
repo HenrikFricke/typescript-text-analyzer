@@ -6,6 +6,9 @@ describe("TextAnalyzer", () => {
     let text: string;
 
     beforeEach(() => {
+        // Article about the launch of Google spreadsheet back in 2006, by Wiki News
+        // (https://en.wikinews.org/wiki/Google_launches_Google_Spreadsheets)
+
         /*tslint:disable*/
         text = `
             Google has launched an online spreadsheet-site, in a private beta.
