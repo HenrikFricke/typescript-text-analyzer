@@ -1,0 +1,40 @@
+{
+  "name": "typescript-text-analyzer",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "test": "yarn lint && jest --coverage",
+    "lint": "tslint src/**/*.ts",
+    "precommit": "yarn test",
+    "prepush": "yarn test && yarn build"
+  },
+  "main": "dist/src/text-analyzer.js",
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "./node_modules/ts-jest/preprocessor.js"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "testRegex": "/__tests__/.*\\.test\\.(ts|tsx)$"
+  },
+  "author": "Henrik Fricke <henrik.fricke@web.de>",
+  "license": "MIT",
+  "dependencies": {
+    "pluralize": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^19.2.2",
+    "@types/pluralize": "^0.0.27",
+    "cross-env": "^4.0.0",
+    "husky": "^0.13.3",
+    "jest": "^19.0.2",
+    "rimraf": "^2.6.1",
+    "source-map-support": "^0.4.14",
+    "ts-jest": "^19.0.10",
+    "tslint": "^5.1.0",
+    "typescript": "^2.2.2"
+  }
+}

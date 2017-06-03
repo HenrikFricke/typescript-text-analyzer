@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "umd",
+    "moduleResolution": "classic",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "esnext"
+  },
+  "include": [
+    "src/**/*",
+    "constants/**/*"
+  ],
+  "exclude": [
+    "src/__tests__/*",
+    "node_modules/**/*"
+  ]
+}
