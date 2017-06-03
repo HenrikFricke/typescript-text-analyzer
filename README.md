@@ -10,7 +10,7 @@ $ yarn add typescript-text-analyzer
 ## Example
 
 ```typescript
-import TextAnalyzer from "typescript-text-analzer";
+import TextAnalyzer from "typescript-text-analyzer";
 
 const analyzer: TextAnalyzer = new TextAnalyzer("A simple text");
 
