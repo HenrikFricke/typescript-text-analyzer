@@ -1,6 +1,5 @@
 {
   "name": "typescript-text-analyzer",
-  "version": "1.0.0",
   "scripts": {
     "build": "rimraf dist && tsc",
     "test": "yarn lint && jest --coverage",
