@@ -1,6 +1,10 @@
 # TypeScript Text Analyzer
 > Simple module to analyze text
 
+[![npm](https://img.shields.io/npm/v/typescript-text-analyzer.svg)](https://www.npmjs.com/package/typescript-text-analyzer)
+[![license](https://img.shields.io/github/license/HenrikFricke/typescript-text-analyzer.svg)](https://github.com/henrikfricke/typescript-text-analyzer/blob/master/LICENSE)
+[![CircleCI](https://img.shields.io/circleci/project/github/HenrikFricke/typescript-text-analyzer.svg)](https://circleci.com/gh/HenrikFricke/typescript-text-analyzer)
+
 ## Install
 
 ```bash
