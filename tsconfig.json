@@ -2,8 +2,8 @@
   "compilerOptions": {
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "umd",
-    "moduleResolution": "classic",
+    "module": "commonjs",
+    "moduleResolution": "node",
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,

@@ -8,6 +8,7 @@
     "prepush": "yarn test && yarn build"
   },
   "main": "dist/src/text-analyzer.js",
+  "typings": "dist/src/text-analyzer.d.ts",
   "jest": {
     "transform": {
       ".(ts|tsx)": "./node_modules/ts-jest/preprocessor.js"
